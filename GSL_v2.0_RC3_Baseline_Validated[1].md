@@ -72,7 +72,7 @@ PUBLISHED_AT
 2026-07-15
 
 CANONICAL_REPOSITORY
-[<URL>](https://github.com/JonasM49/scientific-Framework)
+https://github.com/JonasM49/scientific-Framework
 
 LICENSE
 CC BY-NC-SA 4.0
