@@ -5,7 +5,11 @@
 **Version:** RC1
 **Status:** Release Candidate
 **Architecture level:** GM Execution  
-**Normative foundation:** General Scientific Layer (GSL) and GC Core  
+**Normative foundation:** General Scientific Layer (GSL) and GC Core
+**AUTHOR** JonasM49
+**PUBLISHED_AT** 2026-07-15
+**CANONICAL_REPOSITORY** https://github.com/JonasM49/scientific-Framework
+**LICENSE** CC-BY-NC-SA 4.0
 
 ---
 
