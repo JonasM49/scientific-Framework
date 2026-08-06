@@ -30,25 +30,13 @@ DSL
 
 SPECIFICATION_LINEAGE
 
-AUTHOR
+AUTHOR JonasM49
 
-`<AUTHOR>`{=html}
+PUBLISHED_AT 2026-07-15
 
-PUBLISHED_AT
+CANONICAL_REPOSITORY https://github.com/JonasM49/scientific-Framework
 
-`<PUBLISHED_AT>`{=html}
-
-CANONICAL_REPOSITORY
-
-`<CANONICAL_REPOSITORY>`{=html}
-
-CANONICAL_DOCUMENT
-
-`<CANONICAL_DOCUMENT>`{=html}
-
-LICENSE
-
-CC-BY-NC-SA-4.0
+LICENSE CC BY-NC-SA 4.0
 
 ------------------------------------------------------------------------------
 
