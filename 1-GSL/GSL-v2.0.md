@@ -1,14 +1,21 @@
 # General Scientific Layer (GSL) v2.0
 
 DOCUMENT_IDENTIFIER: GSL
+
 STATUS: Stable
+
 VERSION: 2.0
+
 SUPERSEDES: GSL v2.0 RC3
+
 DOCUMENT_TYPE: NormativeSpecification
 
 AUTHOR: JonasM49
+
 PUBLISHED_AT: 2026-09-19
+
 CANONICAL_REPOSITORY: https://github.com/JonasM49/scientific-Framework
+
 LICENSE: CC BY-NC-SA 4.0
 
 VALIDATION_STATUS: RC3BaselineValidated; ReleaseConsolidationPassed
