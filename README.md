@@ -89,7 +89,7 @@ and GM Core.
 
 Recommended repository location:
 
--   `3-GM-Exec/Template/GM-Exec_Specification_Development_Template_v1.1_Baseline.md`
+-   [`GM-Exec_Specification_Development_Template_v1.1_Baseline.md`](`3-GM-Exec/Development-Template/GM-Exec_Specification_Development_Template_v1.1_Baseline.md`)
 
 ## Intended use
 
