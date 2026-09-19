@@ -6,7 +6,9 @@ VERSION: 2.3
 
 DOCUMENT_IDENTIFIER: GM-Exec_Person_Identity_Research
 
-DOCUMENT_TYPE: GM Execution
+ARCHITECTURE_LEVEL: GM Execution
+
+DOCUMENT_TYPE: NormativeSpecification
 
 DEPENDS_ON: GSL-2.0, GM-Core-v1.3
 
