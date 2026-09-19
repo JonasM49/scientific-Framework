@@ -1,4 +1,4 @@
-# scientific-Framework
+# Scientific Framework
 
 Scientific Framework for structured, traceable and collaborative
 scientific work with AI.
