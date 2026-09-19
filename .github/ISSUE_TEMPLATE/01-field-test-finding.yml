@@ -1,0 +1,167 @@
+name: Field test finding
+description: Report a reproducible finding from practical use of the GSL / GM framework.
+title: "[Fieldtest] "
+labels:
+  - fieldtest
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for testing the framework.
+
+        Use this form to report a concrete finding from practical scientific work.
+        A finding does not need to contain a proposed solution or Specification Change Proposal (SCP).
+
+        Please distinguish what you observed from how you interpret it. If a normative change may be required, the finding can subsequently enter controlled scientific assessment and the SCP process.
+
+  - type: input
+    id: framework_versions
+    attributes:
+      label: Framework / specification version(s)
+      description: Identify the versions used where known.
+      placeholder: "Example: GSL v2.0; GM Core v1.3; GM-Exec Transcription v1.2"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: affected_layer
+    attributes:
+      label: Affected framework layer
+      description: Select the layer that appears to be affected. Choose Unknown if this requires assessment.
+      options:
+        - GSL
+        - GM Core
+        - GM Execution
+        - Processing Profile / project configuration
+        - Working method / implementation
+        - Multiple layers
+        - Unknown / requires assessment
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: research_context
+    attributes:
+      label: Research / application context
+      description: Describe the concrete scientific use case, source type, task, or application context in which the finding occurred.
+    validations:
+      required: true
+
+  - type: textarea
+    id: observed_problem
+    attributes:
+      label: Observed problem or finding
+      description: Describe the concrete problem, limitation, ambiguity, contradiction, missing capability, or successful behavior you observed. Keep observation separate from interpretation where possible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_rule
+    attributes:
+      label: Current framework rule or structure
+      description: Reference the applicable specification section or current framework behavior where identifiable. If unknown, state that.
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected_requirement
+    attributes:
+      label: Expected scientific requirement
+      description: Describe what the scientific work appears to require. State the requirement before proposing a particular implementation or wording.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Provide the concrete evidence supporting the finding, such as a source example, research case, execution trace, comparison, or test result.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction / verification steps
+      description: Give the shortest reproducible sequence that allows another reviewer to encounter or verify the finding.
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence_scope
+    attributes:
+      label: Scope of evidence
+      description: State whether the evidence concerns one case, repeated cases, multiple source types, another domain, or another scope. Do not generalize beyond the available evidence.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: preliminary_classification
+    attributes:
+      label: Preliminary classification
+      description: This is only an initial classification and does not determine the later scientific assessment.
+      options:
+        - Clarification of existing specification
+        - Execution- or domain-specific specialization
+        - Correction of an inconsistency or defect
+        - Possible normative specification change
+        - Implementation / documentation issue only
+        - Successful field-test evidence; no change currently indicated
+        - Unclear — scientific assessment required
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_benefit
+    attributes:
+      label: Expected scientific or architectural benefit
+      description: Describe what would improve by resolving or documenting this finding.
+    validations:
+      required: false
+
+  - type: textarea
+    id: candidate_proposal
+    attributes:
+      label: Candidate proposal (optional)
+      description: A proposed solution is optional and is not considered accepted merely because it is submitted.
+    validations:
+      required: false
+
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation already performed (optional)
+      description: Describe tests, comparisons, counterexamples, other executions, use cases, or other validation already performed.
+    validations:
+      required: false
+
+  - type: textarea
+    id: open_questions
+    attributes:
+      label: Open validation questions (optional)
+      description: Identify unresolved questions, possible regressions, compatibility concerns, or evidence still needed.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_material
+    attributes:
+      label: Additional material (optional)
+      description: Add public supporting material. Do not include confidential or personal information.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Submission check
+      options:
+        - label: I have provided enough information for another reviewer to assess or reproduce this finding.
+          required: true
+        - label: I have not included confidential information, credentials, or personal data that should not be public.
+          required: true
