@@ -4,7 +4,7 @@ STATUS: Baseline
 
 VERSION: 2.3
 
-DOCUMENT_IDENTIFIER: GM-Core
+DOCUMENT_IDENTIFIER: GM-Exec_Person_Identity_Research
 
 DOCUMENT_TYPE: GM Execution
 
