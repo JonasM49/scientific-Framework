@@ -268,13 +268,8 @@ controlled validation and promotion process.
 
 ## License
 
-This project is licensed under the **Creative Commons
-Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
-4.0)** license.
+This project is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International
+(CC BY-NC-SA 4.0) license.
 
-You may share and adapt the material under the terms of the license,
-including attribution, non-commercial use, and ShareAlike requirements.
-
-Official license information:
-
-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+See `LICENSE` for the full license terms.
