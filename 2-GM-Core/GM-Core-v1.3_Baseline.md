@@ -1,14 +1,23 @@
 # Genealogy Model (GM)
 
 STATUS: Baseline
+
 VERSION: 1.3
+
 DOCUMENT_IDENTIFIER: GM-Core
+
 DOCUMENT_TYPE: NormativeSpecification
+
 DEPENDS_ON: GSL-2.0
+
 LANGUAGE: DSL SPECIFICATION_LINEAGE
+
 AUTHOR: JonasM49
+
 PUBLISHED_AT: 2026-09-19
+
 CANONICAL_REPOSITORY: https://github.com/JonasM49/scientific-Framework
+
 LICENSE: CC-BY-NC-SA-4.0
 
 ------------------------------------------------------------------------
